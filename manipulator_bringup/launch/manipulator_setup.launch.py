@@ -54,6 +54,7 @@ def generate_launch_description():
         parameters=[params]
     )
 
+
     ignition_spawn_entity = Node(
         package='ros_gz_sim',
         executable='create',
@@ -74,6 +75,10 @@ def generate_launch_description():
              'joint_trajectory_controller'],
         output='screen'
     )
+
+
+    
+
 
     return LaunchDescription([
         # Launch gazebo environment
