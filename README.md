@@ -1,4 +1,4 @@
-# ros_gz_project_template
+# Robotic Manipulator Simulation
 A project simulating a Robot Manipulator Arm using [`ros2-control`](https://control.ros.org/master/index.html) and [Gazebo](https://gazebosim.org/home).
 
 ## Included packages
