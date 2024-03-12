@@ -1,5 +1,5 @@
 # ros_gz_project_template
-A template project integrating ROS 2 and Gazebo simulator.
+A project simulating a Robot Manipulator Arm using [`ros2-control`](https://control.ros.org/master/index.html) and [Gazebo](https://gazebosim.org/home).
 
 ## Included packages
 
@@ -14,9 +14,9 @@ A template project integrating ROS 2 and Gazebo simulator.
 
 ## Build and Install
 
-The code requires a ROS2 [Humble](https://docs.ros.org/en/humble/index.html) installation and the suggested Gazebo combination https://gazebosim.org/docs/latest/ros_installation
+The code requires a ROS2 [Humble](https://docs.ros.org/en/humble/index.html) installation and the suggested [Gazebo Fortress](https://gazebosim.org/docs/latest/ros_installation). Currently it supports only installations on Ubuntu 22.04.
 
-1. Choose a ROS and Gazebo combination https://gazebosim.org/docs/latest/ros_installation
+1. Install ROS2 [Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) and [Gazebo Fortress](https://gazebosim.org/docs/latest/ros_installation).
 
 1. Install necessary tools
 
