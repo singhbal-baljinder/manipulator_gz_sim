@@ -61,5 +61,5 @@ The code requires a ROS2 [Humble](https://docs.ros.org/en/humble/index.html) ins
 1. Launch the trajectory generator node in another terminal:
 
     ```bash
-     ros2 launch manipulator_bringup manipulator_setup.launch.py
+     ros2 run manipulator_application reference_generator
     ```
